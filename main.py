@@ -1,8 +1,9 @@
+from flask import Flask, render_template, request
 from datetime import datetime
+import toml
+from jinja2 import Environment, FileSystemLoader
 
-import toml  # type: ignore
-from jinja2 import Environment, FileSystemLoader  # type: ignore
-
+app = Flask(__name__)
 
 class Portfolio:
     def __init__(self):
@@ -68,6 +69,18 @@ class Portfolio:
             filters.append(project["category"])
         return set(filters)
 
+    def handle_contact_form(self):
+        fullname = request.form.get('fullname')
+        email = request.form.get('email')
+        message = request.form.get('message')
+
+        # Perform any necessary processing (e.g., sending email)
+        # For now, let's print the form data to the console
+        print(f'Name: {fullname}, Email: {email}, Message: {message}')
+
+        # Optionally, you can provide a response to the client
+        return 'Form submission received successfully!'
+
 
 if __name__ == "__main__":
     portfolio = Portfolio()
@@ -99,3 +112,6 @@ if __name__ == "__main__":
     )
 
     portfolio.write_file("index.html", html_render)
+    
+    # Run the Flask application
+    app.run(debug=True)
