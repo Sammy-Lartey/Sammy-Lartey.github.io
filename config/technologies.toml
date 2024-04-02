@@ -9,15 +9,17 @@ enabled = true # false
 # name = "./.../../icon_path"
 [technologies]
 python = "./config/assets/icons/python.svg"
-Tableau = "./config/assets/icons/Tableau.svg"
-git = "./config/assets/icons/git.svg"
 SQL = "./config/assets/icons/SQL.svg"
-firebase = "./config/assets/icons/firebase.svg"
+Tableau = "./config/assets/icons/Tableau.svg"
+Excel = "./config/assets/icons/Excel.svg"
+GoogleSheets = "./config/assets/icons/GoogleSheets.svg"
+jupyter = "./config/assets/icons/jupyter.svg"
 pandas = "./config/assets/icons/pandas.svg"
 Numpy = "./config/assets/icons/Numpy.svg"
+git = "./config/assets/icons/git.svg"
+firebase = "./config/assets/icons/firebase.svg"
 mongodb = "./config/assets/icons/mongodb.svg"
 dart = "./config/assets/icons/dart.svg"
 html = "./config/assets/icons/html.svg"
-Excel = "./config/assets/icons/Excel.svg"
-jupyter = "./config/assets/icons/jupyter.svg"
-GoogleSheets = "./config/assets/icons/GoogleSheets.svg"
+
+
