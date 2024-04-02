@@ -76,8 +76,8 @@ class Portfolio:
         # Set up SMTP server details
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
-        smtp_username = "your_email@gmail.com"  # Replace with your email
-        smtp_password = "your_password"  # Replace with your password
+        smtp_username = "sammylartey39@gmail.com"  # Replace with your email
+        smtp_password = "@AmenohitotsunokamiDatara4422"  # Replace with your password
 
         # Create message
         message = MIMEMultipart()
