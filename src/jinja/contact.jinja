@@ -8,7 +8,7 @@
   <section class="mapbox" data-mapbox>
     <figure>
       <iframe
-        src="{{about.googlemaps}}"
+        src="{{ about.googlemaps }}"
         width="400" height="300" loading="lazy"></iframe>
     </figure>
   </section>
@@ -17,7 +17,7 @@
 
     <h3 class="h3 form-title">Contact Form</h3>
 
-    <form action="mailto:{{about.email}}" method="POST" class="form" data-form>
+    <form action="/contact" method="post" class="form" data-form>
 
       <div class="input-wrapper">
         <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
