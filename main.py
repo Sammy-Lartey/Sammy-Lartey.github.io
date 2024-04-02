@@ -81,7 +81,6 @@ class Portfolio:
         # Optionally, you can provide a response to the client
         return 'Form submission received successfully!'
 
-
 if __name__ == "__main__":
     portfolio = Portfolio()
     about = portfolio.about()
@@ -111,7 +110,11 @@ if __name__ == "__main__":
         categories=categories,
     )
 
-    portfolio.write_file("index.html", html_render)
-    
-    # Run the Flask application
+    # Uncomment the following line if you want to write the rendered HTML to a file
+    # portfolio.write_file("index.html", html_render)
+
+    @app.route('/contact', methods=['POST'])
+    def handle_contact_form():
+        return portfolio.handle_contact_form()
+
     app.run(debug=True)
