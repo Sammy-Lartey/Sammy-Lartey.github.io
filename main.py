@@ -1,12 +1,8 @@
-from flask import Flask, render_template, request
 from datetime import datetime
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-import toml
-from jinja2 import Environment, FileSystemLoader
 
-app = Flask(__name__)
+import toml  # type: ignore
+from jinja2 import Environment, FileSystemLoader  # type: ignore
+
 
 class Portfolio:
     def __init__(self):
@@ -72,39 +68,6 @@ class Portfolio:
             filters.append(project["category"])
         return set(filters)
 
-    def send_email(self, sender_email, receiver_email, subject, body):
-        # Set up SMTP server details
-        smtp_server = "smtp.gmail.com"
-        smtp_port = 587
-        smtp_username = "sammylartey39@gmail.com"  # Replace with your email
-        smtp_password = "@AmenohitotsunokamiDatara4422"  # Replace with your password
-
-        # Create message
-        message = MIMEMultipart()
-        message["From"] = sender_email
-        message["To"] = receiver_email
-        message["Subject"] = subject
-        message.attach(MIMEText(body, "plain"))
-
-        # Connect to SMTP server and send email
-        with smtplib.SMTP(smtp_server, smtp_port) as server:
-            server.starttls()
-            server.login(smtp_username, smtp_password)
-            server.sendmail(sender_email, receiver_email, message.as_string())
-
-    def handle_contact_form(self):
-        fullname = request.form.get("fullname")
-        email = request.form.get("email")
-        message = request.form.get("message")
-
-        # Send email
-        sender_email = "your_email@gmail.com"  # Replace with your email
-        receiver_email = "sammylartey39@gmail.com"  # Your email address
-        subject = "New Contact Form Submission"
-        body = f"Name: {fullname}\nEmail: {email}\nMessage: {message}"
-        self.send_email(sender_email, receiver_email, subject, body)
-
-        return "Form submission received successfully!"
 
 if __name__ == "__main__":
     portfolio = Portfolio()
@@ -135,11 +98,4 @@ if __name__ == "__main__":
         categories=categories,
     )
 
-    # Uncomment the following line if you want to write the rendered HTML to a file
-    # portfolio.write_file("index.html", html_render)
-
-    @app.route("/contact", methods=["POST"])
-    def handle_contact_form():
-        return portfolio.handle_contact_form()
-
-    app.run(debug=True)
+    portfolio.write_file("index.html", html_render)
