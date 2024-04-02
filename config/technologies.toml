@@ -20,6 +20,6 @@ Numpy = "./config/assets/icons/Numpy.svg"
 git = "./config/assets/icons/git.svg"
 firebase = "./config/assets/icons/firebase.svg"
 mongodb = "./config/assets/icons/mongodb.svg"
-html = "./config/assets/icons/html.svg"
+Seaborn = "./config/assets/icons/Seaborn.svg"
 
 
