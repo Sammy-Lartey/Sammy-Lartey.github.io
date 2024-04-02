@@ -9,7 +9,7 @@ enabled = true # false
 # name = "./.../../icon_path"
 [technologies]
 python = "./config/assets/icons/python.svg"
-flutter = "./config/assets/icons/flutter.svg"
+Tableau = "./config/assets/icons/Tableau.svg"
 git = "./config/assets/icons/git.svg"
 figma = "./config/assets/icons/figma.svg"
 firebase = "./config/assets/icons/firebase.svg"
