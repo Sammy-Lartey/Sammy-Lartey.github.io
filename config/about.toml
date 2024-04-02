@@ -6,7 +6,7 @@ birthday = "Feb 26, 1999"
 location = "Accra, Ghana"
 avatar = "./config/assets/avatars/Aspiring Hippie.png"
 username = "Aspiring Hippie" # <-- github user name
-googlemaps = "https://www.google.com/maps/place/Mataheko,+Accra/@5.5613636,-0.2580335,15.44z/data=!4m6!3m5!1s0xfdf99d9f2fbe42f:0x9ada4c30f43ae7af!8m2!3d5.5661142!4d-0.2476103!16s%2Fg%2F11btzyygr0?entry=ttu" 
+googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15802.570481524942!2d-0.1974306!3d5.5592846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" 
 presentation = """
 I'm simply Him 💅🏽
 """
