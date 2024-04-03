@@ -18,8 +18,9 @@ Colab = "./config/assets/icons/Colab.svg"
 pandas = "./config/assets/icons/pandas.svg"
 Numpy = "./config/assets/icons/Numpy.svg"
 git = "./config/assets/icons/git.svg"
-firebase = "./config/assets/icons/firebase.svg"
-mongodb = "./config/assets/icons/mongodb.svg"
 Databricks = "./config/assets/icons/Databricks.svg"
+BigQuery = "./config/assets/icons/BigQuery.svg"
+mongodb = "./config/assets/icons/mongodb.svg"
+
 
 
