@@ -1,15 +1,6 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "Bachelor of Science in Computer Science"
-school = "Catholic University College of Ghana"
-timeline = "2017 — 2021"
-description = """
-Relevant Coursework: Data Structures and Algorithms, Critical Thinking, Database Management Systems, Statistical Analysis,
-Object Oriented Programming, Data Science and Machine Learning.
-"""
-
-[[education]]
 title = "New york academy of art"
 timeline = "2006 — 2007"
 description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
@@ -23,6 +14,16 @@ description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum dele
 title = "University school of the arts"
 timeline = "2007 — 2008"
 description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+
+[[education]]
+title = "Bachelor of Science in Computer Science"
+school = "Catholic University College of Ghana"
+timeline = "2017 — 2021"
+description = """
+Relevant Coursework: Data Structures and Algorithms, Critical Thinking, Database Management Systems, Statistical Analysis,
+Object Oriented Programming, Data Science and Machine Learning.
+"""
+
 
 ############## Experience config ################
 #################################################
