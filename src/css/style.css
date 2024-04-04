@@ -802,12 +802,7 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
-
-.timeline-list .description { /* Added .description class */
-  color: var(--light-gray); /* Adjust the color as needed */
-  font-weight: var(--fw-300);
-  line-height: 1.6;
-}
+.timeline-list .description
 
 .timeline-item:not(:last-child)::before {
   content: "";
@@ -831,6 +826,11 @@ main {
   box-shadow: 0 0 0 4px var(--jet);
 }
 
+.timeline-text {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 
 /**
