@@ -802,7 +802,11 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
-.timeline-list .description
+.timeline-list .description { /* Added .company-name class */
+  color: var(--light-gray); /* Adjust the color as needed */
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 .timeline-item:not(:last-child)::before {
   content: "";
