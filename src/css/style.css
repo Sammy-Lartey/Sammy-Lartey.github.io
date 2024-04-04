@@ -795,8 +795,9 @@ main {
   margin-bottom: 7px;
 }
 
-.timeline-list span {
-  color: var(--vegas-gold);
+.timeline-list span,
+.timeline-list .school-name {
+  color: var(--vegas-gold); /* Adjust the color as needed */
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
@@ -828,6 +829,7 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
 
 
 /**
