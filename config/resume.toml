@@ -3,8 +3,10 @@
 [[education]]
 title = "Bachelor of Science in Computer Science"
 timeline = "2017 — 2021"
-description = "Relevant Coursework: Data Structures and Algorithms, Critical Thinking, Database Management Systems, Statistical Analysis, 
-Object Oriented Programming, Data Science and Machine Learning."
+description = """
+Relevant Coursework: Data Structures and Algorithms, Critical Thinking, Database Management Systems, Statistical Analysis,
+Object Oriented Programming, Data Science and Machine Learning.
+"""
 
 [[education]]
 title = "New york academy of art"
