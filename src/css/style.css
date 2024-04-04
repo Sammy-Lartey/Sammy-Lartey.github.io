@@ -803,7 +803,7 @@ main {
   line-height: 1.6;
 }
 
-.timeline-list .description { /* Added .description-name class */
+.timeline-list .experience-description li { /* Target the list items within .experience-description */
   color: var(--light-gray); /* Adjust the color as needed */
   font-weight: var(--fw-300);
   line-height: 1.6;
