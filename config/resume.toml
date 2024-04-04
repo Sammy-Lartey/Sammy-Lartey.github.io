@@ -83,20 +83,20 @@ show_bar = true
 show_value = true
 
 [[skill]]
-title = "Web design"
-value = "80%"
-
-[[skill]]
-title = "Graphic design"
+title = "Data Analysis"
 value = "70%"
 
 [[skill]]
-title = "Branding"
-value = "90%"
+title = "Data Visualization"
+value = "70%"
 
 [[skill]]
-title = "WordPress"
-value = "50%"
+title = "Programming"
+value = "70%"
+
+[[skill]]
+title = "Database Management"
+value = "65%"
 
 ############## Language config ##################
 #################################################
@@ -107,8 +107,8 @@ show_bar = true
 show_value = true
 
 [[language]]
-title = "Ingles"
-value = "60%"
+title = "English"
+value = "90%"
 
 [[language]]
 title = "French"
