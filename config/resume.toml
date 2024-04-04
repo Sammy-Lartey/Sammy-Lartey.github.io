@@ -11,9 +11,12 @@ timeline = "2007 — 2008"
 description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
 
 [[education]]
-title = "University school of the arts"
-timeline = "2007 — 2008"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+title = "QUANTIUM Data Analytics Virtual Experience Program"
+timeline = "2024"
+description = """
+Data preparation and customer analytics, Experimentation and uplift testing Analytics and commercial application using Python 
+programming.
+"""
 
 [[education]]
 title = "Bachelor of Science in Computer Science"
