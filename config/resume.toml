@@ -6,9 +6,12 @@ timeline = "2006 — 2007"
 description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
 
 [[education]]
-title = "University school of the arts"
-timeline = "2007 — 2008"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+title = "Google Data Analytics Professional Certificate"
+timeline = "2023"
+description = """
+Coursework: Intro to Data Analytics, Advanced data cleaning, Data analysis with Google Sheets and Microsoft Excel, Data 
+analysis with SQL and R programming, Data Visualization with Tableau.
+"""
 
 [[education]]
 title = "QUANTIUM Data Analytics Virtual Experience Program"
