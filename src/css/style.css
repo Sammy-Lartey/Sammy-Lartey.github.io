@@ -802,6 +802,7 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+.timeline-list .description
 
 .timeline-item:not(:last-child)::before {
   content: "";
