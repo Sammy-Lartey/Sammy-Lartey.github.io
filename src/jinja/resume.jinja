@@ -21,13 +21,13 @@
 
       <li class="timeline-item">
 
-        <h4 class="h4 timeline-item-title">{{education.title}}</h4>
-        <p class="school-name">{{education.school}}</p> <!-- Added school name here -->
+        <h4 class="h4 timeline-item-title">{{ education.title }}</h4>
+        <p class="school-name">{{ education.school }}</p> <!-- Added school name here -->
 
-        <span>{{education.timeline}}</span>
+        <span>{{ education.timeline }}</span>
 
         <p class="timeline-text">
-          {{education.description}}
+          {{ education.description }}
         </p>
 
       </li>
@@ -54,14 +54,18 @@
 
       <li class="timeline-item">
 
-        <h4 class="h4 timeline-item-title">{{experience.title}}</h4>
-        <p class="company-name">{{experience.company}}</p> <!-- Added company name here -->
+        <h4 class="h4 timeline-item-title">{{ experience.title }}</h4>
+        <p class="company-name">{{ experience.company }}</p> <!-- Added company name here -->
 
-        <span>{{experience.timeline}}</span>
+        <span>{{ experience.timeline }}</span>
 
-        <p class="timeline-text">
-          {{experience.description}}
-        </p>
+        <div class="timeline-text">
+          <ul>
+            {% for point in experience.description %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
 
       </li>
 
@@ -75,7 +79,7 @@
   {% if resume.languages.enabled %}
   <section class="skill">
 
-    <h3 class="h3 skills-title">{{resume.languages.title}}</h3>
+    <h3 class="h3 skills-title">{{ resume.languages.title }}</h3>
 
     <ul class="skills-list content-card">
 
@@ -83,14 +87,14 @@
 
       <li class="skills-item">
         <div class="title-wrapper">
-          <h5 class="h5">{{language.title}}</h5>
+          <h5 class="h5">{{ language.title }}</h5>
           {% if resume.languages.show_value %}
-          <data value="{{language.value[:-1]}}">{{language.value}}</data>
+          <data value="{{ language.value[:-1] }}">{{ language.value }}</data>
           {% endif %}
         </div>
         {% if resume.languages.show_bar %}
         <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{language.value}};"></div>
+          <div class="skill-progress-fill" style="width: {{ language.value }};"></div>
         </div>
         {% endif %}
       </li>
@@ -109,7 +113,7 @@
   {% if resume.skills.enabled %}
   <section class="skill">
 
-    <h3 class="h3 skills-title">{{resume.skills.title}}</h3>
+    <h3 class="h3 skills-title">{{ resume.skills.title }}</h3>
 
     <ul class="skills-list content-card">
 
@@ -117,14 +121,14 @@
 
       <li class="skills-item">
         <div class="title-wrapper">
-          <h5 class="h5">{{skill.title}}</h5>
+          <h5 class="h5">{{ skill.title }}</h5>
           {% if resume.skills.show_value %}
-          <data value="{{skill.value[:-1]}}">{{skill.value}}</data>
+          <data value="{{ skill.value[:-1] }}">{{ skill.value }}</data>
           {% endif %}
         </div>
         {% if resume.skills.show_bar %}
         <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{skill.value}};"></div>
+          <div class="skill-progress-fill" style="width: {{ skill.value }};"></div>
         </div>
         {% endif %}
       </li>
