@@ -4,42 +4,38 @@
   <header>
     <h2 class="h2 article-title">Resume</h2>
   </header>
+
   <section class="timeline">
-  
+
     <div class="title-wrapper">
       <div class="icon-box">
         <ion-icon name="book-outline"></ion-icon>
       </div>
-  
+
       <h3 class="h3">Education</h3>
     </div>
-  
+
     <ol class="timeline-list">
-  
+
       {% for education in resume.education | reverse %}
-  
+
       <li class="timeline-item">
-  
-        <div class="education-details">
-          <h4 class="h4 timeline-item-title">{{education.title}}</h4>
-          <span class="school-name">{{education.school}}</span>
-          <span class="gpa">GPA: {{education.gpa}}</span>
-        </div>
-  
+
+        <h4 class="h4 timeline-item-title">{{education.title}}</h4>
+
         <span>{{education.timeline}}</span>
-  
+
         <p class="timeline-text">
           {{education.description}}
         </p>
-  
-      </li>
-  
-      {% endfor %}
-  
-    </ol>
-  
-  </section>
 
+      </li>
+
+      {% endfor %}
+
+    </ol>
+
+  </section>
 
   <section class="timeline">
 
