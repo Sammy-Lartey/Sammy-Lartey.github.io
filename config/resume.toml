@@ -1,13 +1,16 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "New york academy of art"
-timeline = "2006 — 2007"
-description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
+title = "Pieran Data Python Programming Bootcamp"
+timeline = "October 2022 - December 2022"
+description = """
+Coursework: Python Basics, Object Oriented Programming in Python, Databases with Python, Advanced Python Modules, 
+Python for Data Science and Machine Learning.
+"""
 
 [[education]]
 title = "Google Data Analytics Professional Certificate"
-timeline = "2023"
+timeline = "January 2023 - April 2023"
 description = """
 Coursework: Intro to Data Analytics, Advanced data cleaning, Data analysis with Google Sheets and Microsoft Excel, Data 
 analysis with SQL and R programming, Data Visualization with Tableau.
@@ -15,7 +18,7 @@ analysis with SQL and R programming, Data Visualization with Tableau.
 
 [[education]]
 title = "QUANTIUM Data Analytics Virtual Experience Program"
-timeline = "2024"
+timeline = "March 2024"
 description = """
 Data preparation and customer analytics, Experimentation and uplift testing Analytics and commercial application using Python 
 programming.
@@ -24,7 +27,7 @@ programming.
 [[education]]
 title = "Bachelor of Science in Computer Science"
 school = "Catholic University College of Ghana"
-timeline = "2017 — 2021"
+timeline = "September 2017 — October 2021"
 description = """
 Relevant Coursework: Data Structures and Algorithms, Critical Thinking, Database Management Systems, Statistical Analysis,
 Object Oriented Programming, Data Science and Machine Learning.
