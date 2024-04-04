@@ -55,15 +55,15 @@ overall healthcare quality metrics.
 awareness campaigns and health screenings, reaching over 1,000 community members. 
 """
 
-[[experience]]
-title = "Art director"
-timeline = "2013 — 2015"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+# [[experience]]
+# title = "Art director"
+# timeline = "2013 — 2015"
+# description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
 
-[[experience]]
-title = "Creative director"
-timeline = "2015 — Present"
-description = "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+# [[experience]]
+# title = "Creative director"
+# timeline = "2015 — Present"
+# description = "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
 
 
 ############## Skills config ####################
