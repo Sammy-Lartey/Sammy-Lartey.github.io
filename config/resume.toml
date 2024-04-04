@@ -98,6 +98,10 @@ value = "70%"
 title = "Database Management"
 value = "65%"
 
+[[skill]]
+title = "Concept art and Illustration"
+value = "100%"
+
 ############## Language config ##################
 #################################################
 [languages]
