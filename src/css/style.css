@@ -797,14 +797,13 @@ main {
 
 .timeline-list span,
 .timeline-list .school-name,
-.timeline-list .description,
 .timeline-list .company-name { /* Added .company-name class */
   color: var(--vegas-gold); /* Adjust the color as needed */
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
 
-.timeline-list .experience-description li { /* Style for the experience descriptions */
+.timeline-list .description { /* Added .description-name class */
   color: var(--light-gray); /* Adjust the color as needed */
   font-weight: var(--fw-300);
   line-height: 1.6;
