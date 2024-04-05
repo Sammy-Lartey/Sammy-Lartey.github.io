@@ -22,6 +22,6 @@ Databricks = "./config/assets/icons/Databricks.svg"
 BigQuery = "./config/assets/icons/BigQuery.svg"
 mongodb = "./config/assets/icons/mongodb.svg"
 CSP = "./config/assets/icons/CSP.svg"
-
+Photoshop = "./config/assets/icons/Photoshop.svg"
 
 
