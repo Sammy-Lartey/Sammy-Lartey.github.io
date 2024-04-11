@@ -29,10 +29,10 @@ image = "https://imgur.com/kyHrBGk.png"
 url = "https://github.com/ivansaul/codigo_facilito_downloader"
 
 [[project]]
-title = "Finance"
-category = "Web development"
+title = "Bike Store Dashboard"
+category = "Data Visualization"
 image = "./config/assets/projects/project-1.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+url = "https://public.tableau.com/app/profile/sammy.lartey/viz/BikeStoreDashboard_16920594543270/Dashboard1"
 
 [[project]]
 title = "Orizon"
