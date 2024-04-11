@@ -8,5 +8,9 @@ avatar = "./config/assets/avatars/Aspiring Hippie.png"
 username = "Aspiring Hippie" # <-- github user name
 googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15802.570481524942!2d-0.1974306!3d5.5592846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" 
 presentation = """
-I'm simply Him 💅🏽
+Hello there! I'm Samuel Lartey, a data enthusiast and artist based in the vibrant city of Accra, Ghana. As a passionate explorer of both numbers and colors, I thrive in the fascinating intersection of data science and artistic expression.
+
+With a background in computer science, I bring a unique blend of technical expertise and creative vision to every project I undertake. Whether I'm deciphering complex datasets or breathing life into imaginary worlds as a concept artist and illustrator, I'm driven by a relentless curiosity and a hunger for discovery.
+
+Join me on a journey where data meets art, where insights are painted with pixels, and where every visualization tells a story waiting to be unveiled. Let's embark on an adventure together, where creativity knows no bounds and data becomes the canvas for endless possibilities.
 """
