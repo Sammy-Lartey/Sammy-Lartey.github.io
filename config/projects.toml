@@ -31,7 +31,7 @@ url = "https://github.com/ivansaul/codigo_facilito_downloader"
 [[project]]
 title = "Bike Store Dashboard"
 category = "Data Visualization"
-image = "./config/assets/projects/project-1.jpg"
+image = "./config/assets/projects/Viz 1.png"
 url = "https://public.tableau.com/app/profile/sammy.lartey/viz/BikeStoreDashboard_16920594543270/Dashboard1"
 
 [[project]]
