@@ -6,9 +6,9 @@ enabled = true # false
 ################ Skills #########################
 #################################################
 [[skills]]
-title = "Fast Learner"
+title = "Adaptability"
 icon = "./config/assets/icons/bolt.svg"
-text = "I have the ability to quickly acquire new knowledge and adapt to changing technological environments."
+text = "I am flexible and open to change, able to thrive in dynamic environments and navigate challenges with resilience."
 
 [[skills]]
 title = "Teamwork"
@@ -21,6 +21,6 @@ icon = "./config/assets/icons/gear.svg"
 text = "I am creative and efficient in identifying and solving technical problems."
 
 [[skills]]
-title = "Effective Communication"
+title = "Communication"
 icon = "./config/assets/icons/comment.svg"
-text = "I have the skill to convey ideas clearly and concisely, both technically and non-technically."
+text = "I am proficient in articulating ideas and concepts clearly and effectively, whether in written or verbal form."
