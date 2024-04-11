@@ -35,10 +35,10 @@ image = "./config/assets/projects/Viz 1.png"
 url = "https://public.tableau.com/app/profile/sammy.lartey/viz/BikeStoreDashboard_16920594543270/Dashboard1"
 
 [[project]]
-title = "Orizon"
-category = "Web development"
+title = "IMDB Dashboard"
+category = "Data Visualization"
 image = "./config/assets/projects/project-2.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+url = "https://public.tableau.com/app/profile/sammy.lartey/viz/IMDBDashboard_16898211927910/Dashboard1"
 
 [[project]]
 title = "Fundo"
