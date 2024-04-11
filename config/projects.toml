@@ -37,7 +37,7 @@ url = "https://public.tableau.com/app/profile/sammy.lartey/viz/BikeStoreDashboar
 [[project]]
 title = "IMDB Dashboard"
 category = "Data Visualization"
-image = "./config/assets/projects/project-2.png"
+image = "./config/assets/projects/Viz 2.png"
 url = "https://public.tableau.com/app/profile/sammy.lartey/viz/IMDBDashboard_16898211927910/Dashboard1"
 
 [[project]]
