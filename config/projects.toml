@@ -11,10 +11,10 @@ image = "config/assets/projects/Chips.jpg"
 url = "https://github.com/Sammy-Lartey/QUANTIUM-Data-Analytics-Virtual-Experience-Program"
 
 [[project]]
-title = "Flutter Todo App"
-category = "Mobile development"
-image = "https://imgur.com/7110Lj1.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+title = "Google Trends Analysis"
+category = "Data Analytics"
+image = "config/assets/projects/Google.jpg"
+url = "https://github.com/Sammy-Lartey/Google-Trends-Data-Resampling-and-Visualizing-Time-Series"
 
 [[project]]
 title = "Flutter Travel News App"
