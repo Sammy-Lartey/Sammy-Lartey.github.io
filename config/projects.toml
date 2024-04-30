@@ -17,10 +17,10 @@ image = "config/assets/projects/Google.jpg"
 url = "https://github.com/Sammy-Lartey/Google-Trends-Data-Resampling-and-Visualizing-Time-Series"
 
 [[project]]
-title = "Flutter Travel News App"
-category = "Mobile development"
-image = "https://imgur.com/t5T5Ixa.png"
-url = "https://github.com/ivansaul/flutter_travel_news_app#screenshots"
+title = "Nobel Prize Analysis"
+category = "Data Analytics"
+image = "config/assets/projects/Nobel.jpg"
+url = "https://github.com/Sammy-Lartey/Nobel-Prize-Analysis-"
 
 [[project]]
 title = "Codigo Facilito Downloader"
