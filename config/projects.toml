@@ -7,7 +7,7 @@ url = "https://github.com/Sammy-Lartey/Telecom-Customer-Churn"
 [[project]]
 title = "Chips Sales Analysis (QUANTIUM Virtual Experience Program)"
 category = "Data Analytics"
-image = "./config/assets/projects/Chips.png"
+image = "https://unsplash.com/photos/fried-fries-on-white-paper-qgZRZI-pKgM.png"
 url = "https://github.com/Sammy-Lartey/QUANTIUM-Data-Analytics-Virtual-Experience-Program"
 
 [[project]]
