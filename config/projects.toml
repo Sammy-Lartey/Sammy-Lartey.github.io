@@ -5,10 +5,10 @@ image = "https://imgur.com/FPFlTvx.png"
 url = "https://github.com/Sammy-Lartey/Telecom-Customer-Churn"
 
 [[project]]
-title = "Flutter Coffee Shop App"
-category = "Mobile development"
-image = "https://imgur.com/2nNXhDN.png"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
+title = "Chips Sales Analysis (QUANTIUM Virtual Experience Program)"
+category = "Data Analytics"
+image = "https://www.freepik.com/free-photo/potato-chips_1166859.htm?query=potato%20chips%20png#from_view=detail_alsolike.png"
+url = "https://github.com/Sammy-Lartey/QUANTIUM-Data-Analytics-Virtual-Experience-Program"
 
 [[project]]
 title = "Flutter Todo App"
