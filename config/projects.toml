@@ -41,10 +41,10 @@ image = "./config/assets/projects/Viz 2.png"
 url = "https://public.tableau.com/app/profile/sammy.lartey/viz/IMDBDashboard_16898211927910/Dashboard1"
 
 [[project]]
-title = "Fundo"
-category = "Web design"
-image = "./config/assets/projects/project-3.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "LEGO Set Analysis(REBRICKABLE)"
+category = "Data Analytics"
+image = "config/assets/projects/LEGO.jpg"
+url = "https://github.com/Sammy-Lartey/-LEGO-Set-Analysis-with-Rebrickable-Data"
 
 [[project]]
 title = "Brawlhalla"
