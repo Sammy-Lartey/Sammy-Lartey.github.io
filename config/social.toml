@@ -2,7 +2,7 @@
 # <ion-icon name="[[name]]"></ion-icon>
 # name = "https://example.com/"
 
-logo-twitter = "https://twitter.com/aspiringhippie0"
+#logo-twitter = "https://twitter.com/aspiringhippie0"
 # logo-instagram = "https://instagram.com/"
 logo-linkedin = "https://www.linkedin.com/"
 logo-github = "https://github.com/Sammy-Lartey"
