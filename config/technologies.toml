@@ -10,7 +10,6 @@ enabled = true # false
 [technologies]
 python = "./config/assets/icons/python.svg"
 SQL = "./config/assets/icons/SQL.svg"
-Posgresql = "./config/assets/icons/Posgresql.svg"
 Tableau = "./config/assets/icons/Tableau.svg"
 Excel = "./config/assets/icons/Excel.svg"
 GoogleSheets = "./config/assets/icons/GoogleSheets.svg"
@@ -24,5 +23,6 @@ BigQuery = "./config/assets/icons/BigQuery.svg"
 mongodb = "./config/assets/icons/mongodb.svg"
 CSP = "./config/assets/icons/CSP.svg"
 Photoshop = "./config/assets/icons/Photoshop.svg"
+Posgresql = "./config/assets/icons/Posgresql.svg"
 
 
