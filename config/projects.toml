@@ -23,10 +23,10 @@ image = "config/assets/projects/Nobel.jpg"
 url = "https://github.com/Sammy-Lartey/Nobel-Prize-Analysis-"
 
 [[project]]
-title = "Codigo Facilito Downloader"
+title = "Password Generator"
 category = "Python Programming"
-image = "https://imgur.com/kyHrBGk.png"
-url = "https://github.com/ivansaul/codigo_facilito_downloader"
+image = "config/assets/projects/Password.jpg"
+url = "https://github.com/Sammy-Lartey/simple-password-gen"
 
 [[project]]
 title = "Bike Store Dashboard"
