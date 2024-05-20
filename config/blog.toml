@@ -3,7 +3,7 @@ category = "Python Programming"
 title = "Pieran Data Complete Python Bootcamp"
 #subtitle = ""
 datetime = "2022-10-27"
-image = "config/assets/posts/udemy logo.png"
+image = "config/assets/posts/udemy.png"
 url = "https://drive.google.com/drive/u/0/folders/1VREtpDBFp6TLyiQ7SZ3y6tYnFivegWRp"
 
 [[post]]
