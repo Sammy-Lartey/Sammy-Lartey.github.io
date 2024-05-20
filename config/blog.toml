@@ -22,26 +22,26 @@ datetime = "2024-03-13"
 image = "config/assets/posts/Quantium.jpg"
 url = "https://drive.google.com/drive/folders/1wibBRKIgXjPAfuyocMyDr9T08stNDFkT?usp=sharing"
 
-[[post]]
-category = "Design"
-title = "UI interactions of the week"
-subtitle = "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-4.jpg"
-url = "https://dev.to"
+#[[post]]
+#category = "Design"
+#title = "UI interactions of the week"
+#subtitle = "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi"
+#datetime = "2022-02-23"
+#image = "./config/assets/posts/blog-4.jpg"
+#url = "https://dev.to"
 
-[[post]]
-category = "Design"
-title = "The Forgotten Art Of Spacing"
-subtitle = "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-5.jpg"
-url = "https://medium.com"
+#[[post]]
+#category = "Design"
+#title = "The Forgotten Art Of Spacing"
+#subtitle = "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+#datetime = "2022-02-23"
+#image = "./config/assets/posts/blog-5.jpg"
+#url = "https://medium.com"
 
-[[post]]
-category = "Design"
-title = "Design Digest #79"
-subtitle = "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-6.jpg"
-url = "https://hashnode.com"
+#[[post]]
+#category = "Design"
+#title = "Design Digest #79"
+#subtitle = "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum"
+#datetime = "2022-02-23"
+#image = "./config/assets/posts/blog-6.jpg"
+#url = "https://hashnode.com"
