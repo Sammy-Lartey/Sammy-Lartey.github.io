@@ -15,12 +15,12 @@ image = "config/assets/posts/Coursera.png"
 url = "https://drive.google.com/drive/folders/1wmpmPGGlZbw8J1MBTtVMloAnTq3iG3oA?usp=sharing"
 
 [[post]]
-category = "Design"
-title = "Design digest #80"
-subtitle = "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-3.jpg"
-url = "https://hashnode.com"
+category = "Data Analytics"
+title = "Quantium Data Analytics Job Simulation"
+#subtitle = ""
+datetime = "2024-03-13"
+image = "config/assets/posts/Quantium.jpg"
+url = "https://drive.google.com/drive/folders/1wibBRKIgXjPAfuyocMyDr9T08stNDFkT?usp=sharing"
 
 [[post]]
 category = "Design"
