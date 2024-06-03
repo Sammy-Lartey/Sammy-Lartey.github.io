@@ -6,7 +6,7 @@ enabled = true # false
 ################ Skills #########################
 #################################################
 [[skills]]
-title = "Adaptability"
+title = "Adaptable and Fast Learner"
 icon = "./config/assets/icons/bolt.svg"
 text = "I am flexible and open to change, able to thrive in dynamic environments and navigate challenges with resilience."
 
