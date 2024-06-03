@@ -8,7 +8,7 @@ enabled = true # false
 [[skills]]
 title = "Adaptable and Fast Learner"
 icon = "./config/assets/icons/bolt.svg"
-text = "I am flexible and open to change, able to thrive in dynamic environments and navigate challenges with resilience."
+text = "I quickly adjust to any new project requirements and am always eager to learn. I enjoy stepping out of my comfort zone to embrace new technologies and methodologies with enthusiasm, ensuring I stay ahead of the curve."
 
 [[skills]]
 title = "Teamwork"
