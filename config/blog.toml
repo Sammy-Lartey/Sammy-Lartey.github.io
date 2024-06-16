@@ -22,6 +22,14 @@ datetime = "2024-03-13"
 image = "config/assets/posts/Quantium.jpg"
 url = "https://drive.google.com/drive/folders/1wibBRKIgXjPAfuyocMyDr9T08stNDFkT?usp=sharing"
 
+[[post]]
+category = "SQL"
+title = "Pieran Data Complete SQL Bootcamp"
+#subtitle = ""
+datetime = "2024-06-15"
+image = "config/assets/posts/udemy.png"
+url = "https://drive.google.com/drive/u/0/folders/13MGKiJOq4jkOG_KrlnIri2qSTxPuqX6j"
+
 #[[post]]
 #category = "Design"
 #title = "UI interactions of the week"
