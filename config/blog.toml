@@ -4,7 +4,7 @@ title = "Pieran Data Complete Python Bootcamp"
 #subtitle = ""
 datetime = "2022-10-27"
 image = "config/assets/posts/udemy.png"
-url = "https://drive.google.com/drive/u/0/folders/1VREtpDBFp6TLyiQ7SZ3y6tYnFivegWRp"
+url = "https://drive.google.com/file/d/18JUk-ZNrLQgMU_LXNCdugsCYgU1hi7K-/view"
 
 [[post]]
 category = "Data Analytics"
@@ -20,7 +20,7 @@ title = "Quantium Data Analytics Job Simulation"
 #subtitle = ""
 datetime = "2024-03-13"
 image = "config/assets/posts/Quantium.jpg"
-url = "https://drive.google.com/drive/folders/1wibBRKIgXjPAfuyocMyDr9T08stNDFkT?usp=sharing"
+url = "https://drive.google.com/file/d/1gsDHlKttesVfXNqPRYIGfk-WWCcxsed7/view"
 
 [[post]]
 category = "SQL"
