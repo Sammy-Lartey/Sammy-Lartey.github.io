@@ -1891,7 +1891,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .visitor-count {
     color: var(--orange-yellow-crayola); /* Change this to the color you want */
-    font-size: var(--fs-6); /* Adjust font size if needed */
-    font-weight: normal; }
+     }
 
 }
