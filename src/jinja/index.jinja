@@ -84,6 +84,25 @@
   <!-- custom js link -->
   <script src="./src/js/script.js" defer></script>
 
+  <!-- Visitor Counter Script -->
+  <script>
+    // Fetch visitor count from your API
+    fetch('https://qovrwwwn33.execute-api.us-east-1.amazonaws.com/test/visitor', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({})
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Visitor count:', data.visit_count);
+        // Display the visitor count on the page
+        document.getElementById('visitor-count').innerText = `Visitor Count: ${data.visit_count}`;
+    })
+    .catch(error => console.error('Error:', error));
+  </script>
+
   <!-- ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
