@@ -1890,8 +1890,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
   .visitor-count {
-    color: var(orange-yellow-crayola); /* Change this to the color you want */
+    color: var(--orange-yellow-crayola); /* Change this to the color you want */
     font-size: 1.5em; /* Adjust font size if needed */
-    font-weight: bold;
+    font-weight: bold; }
 
 }
