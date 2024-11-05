@@ -3,7 +3,7 @@ category = "Cloud Computing"
 title = "AWS Certified Cloud Practitioner"
 #subtitle = ""
 datetime = "2024-10-23"
-image = "config/assets/posts/AWS Certified Cloud Practitioner"
+image = "config/assets/posts/aws-certified-cloud-practitioner.png"
 url = "https://www.credly.com/badges/837b42cd-d7c4-4818-b82f-4c740c16a6a6/public_url"
 
 [[post]]
