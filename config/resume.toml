@@ -17,11 +17,11 @@ analysis with SQL and R programming, Data Visualization with Tableau.
 """
 
 [[education]]
-title = "QUANTIUM Data Analytics Virtual Experience Program"
-timeline = "March 2024"
+title = " AWSre/Start Cloud Training Program"
+timeline = "October 2024"
 description = """
-Data preparation and customer analytics, Experimentation and uplift testing Analytics and commercial application using Python 
-programming.
+Completed foundational cloud training covering AWS core services, cloud security, networking, and best practices in cloud architecture. 
+Developed hands-on skills in configuration management, AWS IAM, Amazon S3, and troubleshooting.
 """
 
 [[education]]
@@ -39,7 +39,7 @@ Object Oriented Programming, Data Science and Machine Learning.
 [[experience]]
 title = "Research Personnel"
 company = "University of Ghana Medical Center"
-timeline = "October 2021 — September 2022"
+timeline = "October 2021 — February 2023"
 description = [
   "- Conducted surveys and collected data from over 500 patients using Google Forms and Microsoft Excel. This initiative resulted in a 25% reduction in patient wait times and a 30% increase in patient satisfaction scores.",
   "- Utilized Microsoft Excel to process and visually present datasets of over 1,000 records, leading to a substantial 30% enhancement in data accuracy. This precision not only improved data reliability but also streamlined decision-making processes, which resulted in a 15% improvement in operational efficiency.",
