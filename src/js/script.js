@@ -119,24 +119,80 @@ if (filterBtn.length > 0) {
   console.warn("Filter buttons not found!");
 }
 
-// contact form variables
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
+// --- Contact Form Handling with Formspree ---
+const contactForm = document.querySelector("[data-form]");
+const formStatus = document.createElement('div'); // We'll create a status element
 
-// add event to all form input fields if they exist
-if (form && formInputs.length > 0 && formBtn) {
-  formInputs.forEach(input => {
-    input.addEventListener("input", function () {
-      if (form.checkValidity()) {
-        formBtn.removeAttribute("disabled");
-      } else {
-        formBtn.setAttribute("disabled", "");
-      }
+console.log('Contact form found:', contactForm); // Debug log
+
+if (contactForm) {
+    // Add status element after the form button
+    const formBtn = contactForm.querySelector("[data-form-btn]");
+    formStatus.style.marginTop = '15px';
+    formStatus.style.fontSize = 'var(--fs-6)';
+    formStatus.style.textAlign = 'center';
+    contactForm.appendChild(formStatus);
+    
+    contactForm.addEventListener('submit', async function(event) {
+        console.log('Form submitted!'); // Debug log
+        event.preventDefault(); 
+        console.log('Default prevented!'); // Debug log
+        
+        const formData = new FormData(contactForm);
+        const submitButton = contactForm.querySelector('button[type="submit"]');
+        const submitText = submitButton.querySelector('span');
+        const originalText = submitText.textContent;
+        
+        // Show loading state
+        formStatus.textContent = 'Sending your message...';
+        formStatus.style.color = 'var(--vegas-gold)';
+        submitButton.disabled = true;
+        submitText.textContent = 'Sending...';
+
+        try {
+            console.log('Sending to Formspree...'); // Debug log
+            
+            // Use FormData directly with the correct content-type
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData, // Use FormData directly
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            console.log('Response status:', response.status); // Debug log
+
+            if (response.ok) {
+                const result = await response.json();
+                console.log('Formspree response:', result); // Debug log
+                
+                // Success
+                formStatus.textContent = 'Message sent successfully! I will get back to you soon.';
+                formStatus.style.color = 'var(--orange-yellow-crayola)';
+                contactForm.reset();
+                
+                // Clear form validation state
+                const formInputs = contactForm.querySelectorAll("[data-form-input]");
+                formInputs.forEach(input => {
+                    input.dispatchEvent(new Event("input"));
+                });
+                
+                setTimeout(() => {
+                    formStatus.textContent = '';
+                }, 5000);
+            } else {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+        } catch (error) {
+            console.error('Form submission error:', error);
+            formStatus.textContent = 'Failed to send message. Please try again or email me directly.';
+            formStatus.style.color = 'var(--bittersweet-shimmer)';
+        } finally {
+            submitButton.disabled = false;
+            submitText.textContent = originalText;
+        }
     });
-  });
-} else {
-  console.warn("Form, form inputs, or form button not found!");
 }
 
 // page navigation variables
