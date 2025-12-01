@@ -5,9 +5,15 @@ image = "config/assets/projects/CustomerSupport.jpg"
 url = "https://github.com/Sammy-Lartey/customer-support-ETL-pipeline"
 
 [[project]]
+title = "Ecommerce Order Distribution"
+category = "Python Programming"
+image = "config/assets/projects/Trucks.jpg"
+url = "https://github.com/Sammy-Lartey/E-commerce-Order-Distribution-Optimization-"
+
+[[project]]
 title = "SMS Spam Detector"
 category = "Python Programming"
-image = "config/assets/projects/Telecom.jpg"
+image = "config/assets/projects/Spam.jpg"
 url = "https://github.com/Sammy-Lartey/Spam-Detector---ML"
 
 [[project]]
@@ -15,12 +21,6 @@ title = "Video Game Sales Analysis"
 category = "Data Analytics"
 image = "config/assets/projects/VideoGames.jpg"
 url = "https://github.com/Sammy-Lartey/Data-Analytics-Portfolio/tree/main/Video%20Game%20Data%20Analysis%20Project"
-
-[[project]]
-title = "Ecommerce Order Distribution"
-category = "Python Programming"
-image = "config/assets/projects/Trucks.jpg"
-url = "https://github.com/Sammy-Lartey/E-commerce-Order-Distribution-Optimization-"
 
 [[project]]
 title = "Telecom Churn Analysis"
