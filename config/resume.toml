@@ -1,28 +1,28 @@
 ############## Education config #################
 #################################################
-[[education]]
-title = "Pieran Data Python Programming Bootcamp"
-timeline = "October 2022 - December 2022"
-description = """
-Coursework: Python Basics, Object Oriented Programming in Python, Databases with Python, Advanced Python Modules, 
-Python for Data Science and Machine Learning.
-"""
+#[[education]]
+#title = "Pieran Data Python Programming Bootcamp"
+#timeline = "October 2022 - December 2022"
+#description = """
+#Coursework: Python Basics, Object Oriented Programming in Python, Databases with Python, Advanced Python Modules, 
+#Python for Data Science and Machine Learning.
+#"""
 
-[[education]]
-title = "Google Data Analytics Professional Certificate"
-timeline = "January 2023 - April 2023"
-description = """
-Coursework: Intro to Data Analytics, Advanced data cleaning, Data analysis with Google Sheets and Microsoft Excel, Data 
-analysis with SQL and R programming, Data Visualization with Tableau.
-"""
+#[[education]]
+#title = "Google Data Analytics Professional Certificate"
+#timeline = "January 2023 - April 2023"
+#description = """
+#Coursework: Intro to Data Analytics, Advanced data cleaning, Data analysis with Google Sheets and Microsoft Excel, Data 
+#analysis with SQL and R programming, Data Visualization with Tableau.
+#"""
 
-[[education]]
-title = " AWSre/Start Cloud Training Program"
-timeline = "July 2024 - October 2024"
-description = """
-Completed foundational cloud training covering core services, cloud security, networking, and best practices in the AWS cloud. 
-Developed hands-on skills in configuration management, AWS IAM, Amazon S3, and troubleshooting.
-"""
+#[[education]]
+#title = " AWSre/Start Cloud Training Program"
+#timeline = "July 2024 - October 2024"
+#description = """
+#Completed foundational cloud training covering core services, cloud security, networking, and best practices in the AWS cloud. 
+#Developed hands-on skills in configuration management, AWS IAM, Amazon S3, and troubleshooting.
+#"""
 
 [[education]]
 title = "Bachelor of Science in Computer Science"
