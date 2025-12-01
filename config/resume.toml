@@ -90,6 +90,20 @@ description = [
 # timeline = "2015 — Present"
 # description = "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
 
+############## Language config ##################
+#################################################
+[languages]
+title = "Languages"
+enabled = true
+show_value = true  # Keep this to show proficiency level
+# Remove show_bar since we're not using progress bars
+
+[[language]]
+title = "English"
+value = "Fluent"  # Change from "90%" to text
+description = "Native proficiency"  # Optional: Add description
+
+
 
 ############## Skills config ####################
 #################################################
@@ -110,16 +124,3 @@ description = "Power BI, Tableau, Metabase"
 [[skill]]
 title = "Cloud Technologies"
 description = "Amazon Web Services (AWS)"
-
-############## Language config ##################
-#################################################
-[languages]
-title = "Languages"
-enabled = true
-show_value = true  # Keep this to show proficiency level
-# Remove show_bar since we're not using progress bars
-
-[[language]]
-title = "English"
-value = "Fluent"  # Change from "90%" to text
-description = "Native proficiency"  # Optional: Add description
