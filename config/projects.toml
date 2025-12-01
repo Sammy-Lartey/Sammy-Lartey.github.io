@@ -11,6 +11,12 @@ image = "config/assets/projects/Trucks.jpg"
 url = "https://github.com/Sammy-Lartey/E-commerce-Order-Distribution-Optimization-"
 
 [[project]]
+title = "Onyx Health Project - Power BI"
+category = "Visualization"
+image = "config/assets/projects/Onyx.jpg"
+url = "https://github.com/Sammy-Lartey/Data-Analytics-Portfolio/tree/main/ONYX%20Health%20Analysis%20Project"
+
+[[project]]
 title = "SMS Spam Detector"
 category = "Python Programming"
 image = "config/assets/projects/Spam.jpg"
