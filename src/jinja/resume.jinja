@@ -22,7 +22,7 @@
       <li class="timeline-item">
 
         <h4 class="h4 timeline-item-title">{{education.title}}</h4>
-        <p class="school-name">{{education.school}}</p> <!-- Added school name here -->
+        <p class="school-name">{{education.school}}</p>
 
         <span>{{education.timeline}}</span>
 
@@ -55,11 +55,11 @@
       <li class="timeline-item">
 
         <h4 class="h4 timeline-item-title">{{experience.title}}</h4>
-        <p class="company-name">{{experience.company}}</p> <!-- Added company name here -->
+        <p class="company-name">{{experience.company}}</p>
 
         <span>{{experience.timeline}}</span>
 
-        <ul class="experience-description"> <!-- Use unordered list for multiple descriptions -->
+        <ul class="experience-description">
           {% for description in experience.description %}
           <li>{{description}}</li>
           {% endfor %}
@@ -75,65 +75,62 @@
 
   <!-- Languages -->
   {% if resume.languages.enabled %}
-  <section class="skill">
+  <section class="timeline">
 
-    <h3 class="h3 skills-title">{{resume.languages.title}}</h3>
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="language-outline"></ion-icon>  <!-- Changed icon -->
+      </div>
 
-    <ul class="skills-list content-card">
+      <h3 class="h3">{{resume.languages.title}}</h3>
+    </div>
+
+    <ol class="timeline-list">
 
       {% for language in resume.language %}
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">{{language.title}}</h5>
-          {% if resume.languages.show_value %}
-          <data value="{{language.value[:-1]}}">{{language.value}}</data>
-          {% endif %}
-        </div>
-        {% if resume.languages.show_bar %}
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{language.value}};"></div>
-        </div>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">{{language.title}}</h4>
+        {% if resume.languages.show_value %}
+        <span class="language-proficiency">{{language.value}}</span>
+        {% endif %}
+        {% if language.description %}
+        <p class="timeline-text">{{language.description}}</p>
         {% endif %}
       </li>
-
       {% endfor %}
 
-    </ul>
+    </ol>
 
   </section>
-  <br>
   {% endif %}
 
-
   <!-- My Skills -->
-
   {% if resume.skills.enabled %}
-  <section class="skill">
+  <section class="timeline">
 
-    <h3 class="h3 skills-title">{{resume.skills.title}}</h3>
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="code-slash-outline"></ion-icon>  <!-- Changed icon -->
+      </div>
 
-    <ul class="skills-list content-card">
+      <h3 class="h3">{{resume.skills.title}}</h3>
+    </div>
+
+    <ol class="timeline-list skills-timeline">
 
       {% for skill in resume.skill %}
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">{{skill.title}}</h5>
-          {% if resume.skills.show_value %}
-          <data value="{{skill.value[:-1]}}">{{skill.value}}</data>
-          {% endif %}
-        </div>
-        {% if resume.skills.show_bar %}
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: {{skill.value}};"></div>
-        </div>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">{{skill.title}}</h4>
+        {% if resume.skills.show_value %}
+        <span class="skill-proficiency">{{skill.value}}</span>
+        {% endif %}
+        {% if skill.description %}
+        <p class="timeline-text">{{skill.description}}</p>
         {% endif %}
       </li>
-
       {% endfor %}
 
-    </ul>
+    </ol>
 
   </section>
   {% endif %}
