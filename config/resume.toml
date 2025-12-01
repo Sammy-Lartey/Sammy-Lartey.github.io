@@ -100,29 +100,16 @@ show_value = true  # Keep this to show proficiency level as text
 # Remove show_bar since we're not using progress bars anymore
 
 [[skill]]
-title = "Data Analysis"
-value = "Advanced"  # Change from "70%" to text like "Advanced", "Intermediate", etc.
-description = "Python, SQL, Excel, Statistical Analysis"  # Optional: Add description
+title = "Programming Languages"
+description = "Python, SQL (MySQL, PostgreSQL)"
 
 [[skill]]
-title = "Data Visualization"
-value = "Advanced"
+title = "BI Tools and Visualization"
 description = "Power BI, Tableau, Metabase"
 
 [[skill]]
-title = "Programming Languages"
-value = "Intermediate"
-description = "Python, SQL"
-
-[[skill]]
-title = "Database Management"
-value = "Intermediate"
-description = "PostgreSQL, MySQL, Database Design"
-
-[[skill]]
-title = "Concept art and Illustration"
-value = "Expert"
-description = "Digital Art, Illustration"
+title = "Cloud Technologies"
+description = "Amazon Web Services (AWS)"
 
 ############## Language config ##################
 #################################################
