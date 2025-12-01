@@ -1,4 +1,16 @@
 [[project]]
+title = "Customer Support ETL Pipeline"
+category = "Python Programming"
+image = "config/assets/projects/Telecom.jpg"
+url = "https://github.com/Sammy-Lartey/customer-support-ETL-pipeline"
+
+[[project]]
+title = "Video Game Sales Analysis"
+category = "Data Analytics"
+image = "config/assets/projects/Telecom.jpg"
+url = "https://github.com/Sammy-Lartey/Data-Analytics-Portfolio/tree/main/Video%20Game%20Data%20Analysis%20Project"
+
+[[project]]
 title = "Telecom Churn Analysis"
 category = "Data Analytics"
 image = "config/assets/projects/Telecom.jpg"
