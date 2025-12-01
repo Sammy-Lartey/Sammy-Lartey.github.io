@@ -11,6 +11,7 @@ enabled = true # false
 python = "./config/assets/icons/python.svg"
 SQL = "./config/assets/icons/SQL.svg"
 Tableau = "./config/assets/icons/Tableau.svg"
+PowerBI = "./config/assets/icons/PowerBI.svg"
 Excel = "./config/assets/icons/Excel.svg"
 GoogleSheets = "./config/assets/icons/GoogleSheets.svg"
 jupyter = "./config/assets/icons/jupyter.svg"
