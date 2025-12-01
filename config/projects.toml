@@ -23,10 +23,10 @@ image = "config/assets/projects/Spam.jpg"
 url = "https://github.com/Sammy-Lartey/Spam-Detector---ML"
 
 [[project]]
-title = "Video Game Sales Analysis"
-category = "Data Analytics"
-image = "config/assets/projects/VideoGames.jpg"
-url = "https://github.com/Sammy-Lartey/Data-Analytics-Portfolio/tree/main/Video%20Game%20Data%20Analysis%20Project"
+title = "Workforce Analysis Project - Power BI"
+category = "Visualization"
+image = "config/assets/projects/Workforce.jpg"
+url = "https://github.com/Sammy-Lartey/Data-Analytics-Portfolio/tree/main/Workforce%20Analysis%20Project"
 
 [[project]]
 title = "Telecom Churn Analysis"
