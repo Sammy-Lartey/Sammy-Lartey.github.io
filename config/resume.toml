@@ -94,7 +94,7 @@ description = [
 ############## Skills config ####################
 #################################################
 [skills] 
-title = "My Skills"
+title = "Technical Skills"
 enabled = true
 show_value = true  # Keep this to show proficiency level as text
 # Remove show_bar since we're not using progress bars anymore
@@ -107,12 +107,12 @@ description = "Python, SQL, Excel, Statistical Analysis"  # Optional: Add descri
 [[skill]]
 title = "Data Visualization"
 value = "Advanced"
-description = "Power BI, Tableau, Matplotlib, Seaborn"
+description = "Power BI, Tableau, Metabase"
 
 [[skill]]
-title = "Programming"
-value = "Advanced"
-description = "Python, JavaScript, SQL"
+title = "Programming Languages"
+value = "Intermediate"
+description = "Python, SQL"
 
 [[skill]]
 title = "Database Management"
@@ -122,7 +122,7 @@ description = "PostgreSQL, MySQL, Database Design"
 [[skill]]
 title = "Concept art and Illustration"
 value = "Expert"
-description = "Digital Art, Graphic Design, UI/UX"
+description = "Digital Art, Illustration"
 
 ############## Language config ##################
 #################################################
@@ -136,8 +136,3 @@ show_value = true  # Keep this to show proficiency level
 title = "English"
 value = "Fluent"  # Change from "90%" to text
 description = "Native proficiency"  # Optional: Add description
-
-[[language]]
-title = "French"
-value = "Intermediate"
-description = "Professional working proficiency"
