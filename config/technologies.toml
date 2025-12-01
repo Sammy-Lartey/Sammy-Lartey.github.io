@@ -10,6 +10,7 @@ enabled = true # false
 [technologies]
 python = "./config/assets/icons/python.svg"
 SQL = "./config/assets/icons/SQL.svg"
+AWS = "./config/assets/icons/AWS.svg"
 Tableau = "./config/assets/icons/Tableau.svg"
 PowerBI = "./config/assets/icons/PowerBI.svg"
 Metabase = "./config/assets/icons/Metabase.svg"
@@ -20,11 +21,10 @@ Colab = "./config/assets/icons/Colab.svg"
 pandas = "./config/assets/icons/pandas.svg"
 Numpy = "./config/assets/icons/Numpy.svg"
 git = "./config/assets/icons/git.svg"
-Databricks = "./config/assets/icons/Databricks.svg"
-BigQuery = "./config/assets/icons/BigQuery.svg"
-mongodb = "./config/assets/icons/mongodb.svg"
+#Databricks = "./config/assets/icons/Databricks.svg"
+#BigQuery = "./config/assets/icons/BigQuery.svg"
+#mongodb = "./config/assets/icons/mongodb.svg"
 CSP = "./config/assets/icons/CSP.svg"
 Photoshop = "./config/assets/icons/Photoshop.svg"
-Posgresql = "./config/assets/icons/Posgresql.svg"
 
 
