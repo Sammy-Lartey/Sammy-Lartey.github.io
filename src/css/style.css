@@ -863,7 +863,7 @@ main {
   font-weight: var(--fw-300);
 }
 
-.skill-progress-bg {
+/*.skill-progress-bg {
   background: var(--jet);
   width: 100%;
   height: 8px;
@@ -874,6 +874,30 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
+}
+*/
+/* New styles for skills/languages in timeline format */
+.skills-timeline .timeline-item {
+  margin-bottom: 15px;
+}
+
+.skill-proficiency,
+.language-proficiency {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Adjust spacing for skills/languages timeline items */
+.timeline-list .timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Ensure proper spacing between sections */
+.resume .timeline:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 
