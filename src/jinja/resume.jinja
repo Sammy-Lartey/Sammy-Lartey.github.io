@@ -73,6 +73,38 @@
 
   </section>
 
+  
+  <!-- My Skills -->
+  {% if resume.skills.enabled %}
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="code-slash-outline"></ion-icon>  <!-- Changed icon -->
+      </div>
+
+      <h3 class="h3">{{resume.skills.title}}</h3>
+    </div>
+
+    <ol class="timeline-list skills-timeline">
+
+      {% for skill in resume.skill %}
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">{{skill.title}}</h4>
+        {% if resume.skills.show_value %}
+        <span class="skill-proficiency">{{skill.value}}</span>
+        {% endif %}
+        {% if skill.description %}
+        <p class="timeline-text">{{skill.description}}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+
+    </ol>
+
+  </section>
+  {% endif %}
+
   <!-- Languages -->
   {% if resume.languages.enabled %}
   <section class="timeline">
@@ -104,35 +136,5 @@
   </section>
   {% endif %}
 
-  <!-- My Skills -->
-  {% if resume.skills.enabled %}
-  <section class="timeline">
-
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="code-slash-outline"></ion-icon>  <!-- Changed icon -->
-      </div>
-
-      <h3 class="h3">{{resume.skills.title}}</h3>
-    </div>
-
-    <ol class="timeline-list skills-timeline">
-
-      {% for skill in resume.skill %}
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{{skill.title}}</h4>
-        {% if resume.skills.show_value %}
-        <span class="skill-proficiency">{{skill.value}}</span>
-        {% endif %}
-        {% if skill.description %}
-        <p class="timeline-text">{{skill.description}}</p>
-        {% endif %}
-      </li>
-      {% endfor %}
-
-    </ol>
-
-  </section>
-  {% endif %}
 
 </article>
