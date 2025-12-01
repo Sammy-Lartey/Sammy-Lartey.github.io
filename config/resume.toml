@@ -37,13 +37,15 @@ Object Oriented Programming, Data Science and Machine Learning.
 ############## Experience config ################
 #################################################
 [[experience]]
-title = "Data Analyst"
-company = "AFFINITY AFRICA"
-timeline = "May 2025 — December 2025"
+title = "Research Personnel"
+company = "University of Ghana Medical Center"
+timeline = "October 2021 — February 2023"
 description = [
-  "- Engineered an automated Python and SQL ETL pipeline that ingested, cleaned, and unified multi-source customer support data into a structured PostgreSQL database, cutting manual data prep time by 80% and enabling reliable analytics and automated reporting across teams.",
-  "- Designed and automated interactive Metabase dashboards and alerts that accelerated the identification of core customer needs by 60%, leading to more effective marketing, and reduced operational costs by 75% by proactively identifying and resolving bottlenecks in business operations.",
-  "- Contributed to a cross-functional initiative to understand customer savings behaviours by designing key data reports, conducting field surveys with 100+ customers, and analysing patterns and barriers; providing insights to inform targeted interventions to boost customer engagement."
+  "- Conducted surveys and collected data from over 500 patients using Google Forms and Microsoft Excel. This initiative resulted in a 25% reduction in patient wait times and a 30% increase in patient satisfaction scores.",
+  "- Utilized Microsoft Excel to process and visually present datasets of over 1,000 records, leading to a substantial 30% enhancement in data accuracy. This precision not only improved data reliability but also streamlined decision-making processes, which resulted in a 15% improvement in operational efficiency.",
+  "- Conducted literature reviews, analyzed research articles, and summarized key findings to guide research studies.",
+  "- Coordinated AIDET training programs aimed at enhancing communication and fostering a more patient-centered approach within the organization, which led to a 25% improvement in good staff-patient interactions and a 30% rise in patient satisfaction scores. These initiatives also contributed to a 15% decrease in complaints and a 10% improvement in overall healthcare quality metrics.",
+  "- Actively participated in cross-functional collaborations with the Thyroid Ghana Foundation and medical staff to organize awareness campaigns and health screenings, reaching over 1,000 community members."
 ]
 
 [[experience]]
@@ -57,15 +59,13 @@ description = [
 ]
 
 [[experience]]
-title = "Research Personnel"
-company = "University of Ghana Medical Center"
-timeline = "October 2021 — February 2023"
+title = "Data Analyst"
+company = "AFFINITY AFRICA"
+timeline = "May 2025 — December 2025"
 description = [
-  "- Conducted surveys and collected data from over 500 patients using Google Forms and Microsoft Excel. This initiative resulted in a 25% reduction in patient wait times and a 30% increase in patient satisfaction scores.",
-  "- Utilized Microsoft Excel to process and visually present datasets of over 1,000 records, leading to a substantial 30% enhancement in data accuracy. This precision not only improved data reliability but also streamlined decision-making processes, which resulted in a 15% improvement in operational efficiency.",
-  "- Conducted literature reviews, analyzed research articles, and summarized key findings to guide research studies.",
-  "- Coordinated AIDET training programs aimed at enhancing communication and fostering a more patient-centered approach within the organization, which led to a 25% improvement in good staff-patient interactions and a 30% rise in patient satisfaction scores. These initiatives also contributed to a 15% decrease in complaints and a 10% improvement in overall healthcare quality metrics.",
-  "- Actively participated in cross-functional collaborations with the Thyroid Ghana Foundation and medical staff to organize awareness campaigns and health screenings, reaching over 1,000 community members."
+  "- Engineered an automated Python and SQL ETL pipeline that ingested, cleaned, and unified multi-source customer support data into a structured PostgreSQL database, cutting manual data prep time by 80% and enabling reliable analytics and automated reporting across teams.",
+  "- Designed and automated interactive Metabase dashboards and alerts that accelerated the identification of core customer needs by 60%, leading to more effective marketing, and reduced operational costs by 75% by proactively identifying and resolving bottlenecks in business operations.",
+  "- Contributed to a cross-functional initiative to understand customer savings behaviours by designing key data reports, conducting field surveys with 100+ customers, and analysing patterns and barriers; providing insights to inform targeted interventions to boost customer engagement."
 ]
 
 # You can add more experience entries following the same structure:
